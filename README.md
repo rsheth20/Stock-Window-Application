@@ -1,1 +1,2 @@
 # Stock-Window-Application
+This stock quote application was developed using Python and the Tkinter library. It utilizes the Financial Modeling Prep API to retrieve real-time stock data for a randomly selected symbol, and displays various attributes of the stock in a GUI interface. These attributes include the symbol, name, price, day low and high, year low and high, volume, average volume, exchange, and exchange short name. The application also includes a "Next" button which allows the user to view quotes for new stocks on demand. 
