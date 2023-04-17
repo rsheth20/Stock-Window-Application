@@ -9,7 +9,7 @@ def get_new_quote_data():
     symbol = random.choice(data)['symbol']
 
     # Make API request to get quote for the symbol
-    quote_url = "https://financialmodelingprep.com/api/v3/quote/" + symbol + "?apikey=cf11d6a9d5d03f2ade358f74a882c5c0"
+    quote_url = "https://financialmodelingprep.com/api/v3/quote/" + symbol + "API_KEY"
     quote_response = requests.get(quote_url)
     quote_data = quote_response.json()
 
