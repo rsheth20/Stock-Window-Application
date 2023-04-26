@@ -42,7 +42,7 @@ def get_new_quote_data():
     exchangeShortName_label.configure(text="Exchange Short Name: " + exchangeShortName)
 
 # Make initial API request to get list of available traded stocks
-url = "https://financialmodelingprep.com/api/v3/available-traded/list?apikey=cf11d6a9d5d03f2ade358f74a882c5c0"
+url = "https://financialmodelingprep.com/api/v3/available-traded/list?apikey=API_KEY"
 response = requests.get(url)
 data = response.json()
 
